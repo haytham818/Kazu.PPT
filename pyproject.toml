@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pywin32>=310",
+    "chardet>=5.1.0",
+    "python-pptx>=1.0.2",
+]
